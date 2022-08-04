@@ -1,11 +1,13 @@
 package com.jung.practice;
 
-public class OperatorEx7 {
+public class OperatorEx8 {
     public static void main(String[] args) {
 
-        byte a = 10;
-        byte b = 30;
-        byte c = (byte)(a * b);
+        int a = 1_000_000;
+        int b = 2_000_000;
+
+        long c = a * b;
+
         System.out.println(c);
 
     }
